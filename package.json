@@ -17,7 +17,7 @@
       "eslint --fix"
     ]
   },
-  "pretier": "@mthrasher33/prettier-config",
+  "prettier": "@mthrasher33/prettier-config",
   "dependencies": {
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1"
