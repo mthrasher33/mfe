@@ -3,20 +3,19 @@
   "version": "1.0.0",
   "scripts": {
     "prettier": "prettier --write .",
-    "pre-commit-test": "echo yo",
+    "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run pre-commit-test"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "linters": {
-      "**/*": "prettier --write --ignore-unknown"
-    }
+    "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "lint-staged": "^12.1.2",
     "prettier": "^2.5.1"
   },
   "devDependencies": {
