@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "prettier": "prettier --write .",
-    "pre-commit-test": "echo yo"
+    "pre-commit-test": "echo yo",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
