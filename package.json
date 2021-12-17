@@ -7,7 +7,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pre-commit-test"
+      "pre-commit": "npm run pre-commit-test"
     }
   },
   "lint-staged": {
