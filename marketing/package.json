@@ -2,19 +2,7 @@
   "name": "marketing",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack serve --config config/webpack.dev.js",
-    "prettier": "prettier --write .",
-    "pre-commit-test": "echo yo"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pre-commit-test"
-    }
-  },
-  "lint-staged": {
-    "linters":{
-      "**/*": "prettier --write --ignore-unknown"
-    }
+    "start": "webpack serve --config config/webpack.dev.js"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",

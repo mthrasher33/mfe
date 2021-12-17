@@ -1,0 +1,21 @@
+{
+  "name": "mfp",
+  "version": "1.0.0",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "pre-commit-test": "echo yo"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pre-commit-test"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "**/*": "prettier --write --ignore-unknown"
+    }
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
