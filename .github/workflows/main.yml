@@ -3,12 +3,9 @@ name: CI
 on:
   push:
     branches: [ master ]
-    paths: 
-      - 'packages/container/**'
+    paths: - 'packages/container/**'
   pull_request:
     branches: [ master ]
-    paths: 
-      - 'packages/container/**'
   workflow_dispatch:
 
 jobs:
