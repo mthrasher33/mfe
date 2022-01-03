@@ -17,12 +17,13 @@
       "eslint --fix"
     ]
   },
-  "prettier": "@mthrasher33/prettier-config",
+  "prettier": "@azz/prettier-config",
   "dependencies": {
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1"
   },
   "devDependencies": {
+    "@azz/prettier-config": "^1.0.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^8.3.0",
