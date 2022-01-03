@@ -2,6 +2,7 @@ import React from 'react';
 import MarketingApp from './components/MarketingApp';
 
 const house = '';
+const test = '';
 
 export default () => {
   return (
